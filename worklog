@@ -1,0 +1,33 @@
+2/8 (approx)
+- created main and wrote code to create initial array of people
+- decided to represent each person with an object
+- struggled to figure out how to dynamically create an object
+- realized situation could be represented with a linked list
+
+2/16
+- created worklog
+- deleted existing class file and replaced it with LinkedSanta
+- defined and wrote init and repr for LinkedSanta class and Node class
+- brainstormed ideas for further implementation on paper, realized I could model algorithm after real life algorithm (drawing cards from hat)
+
+2/17
+- clarified instructions to user from enter 'n.' to enter 'n'
+- rewrote initialization for LinkedSanta
+- rearranged code to be part of class file rather than main file
+
+2/18
+- tested out how to dynamically create objects in a loop
+- decided to change code away from linked list type structure
+- began code for pull method
+
+3/1
+- wrote code for pull() method
+- debugged pull()
+- wrote repr for SecretSanta class
+
+3/3
+- modified pull() so that 'EMPTY' would be added if a person failed to be assigned a recipient, and so that there would be no duplicate recipients
+- wrote code to make sure that each person was assigned a recipient using brute force
+    - later, will try to find more efficient way to solve this problem that doesn't require brute force
+- wrote code to test efficiency of algorithm
+- wrote method to return recipients while only showing one person's recipient at a time
